@@ -6,3 +6,6 @@
     ai "user input"
     ai "user input" [/dir/dir/file]
     ai "user input" [/dir/dir/file] [/dir/dir/context_file]
+####
+##### Login
+/usr/local/bin/bito
