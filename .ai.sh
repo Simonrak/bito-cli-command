@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_URL="https://github.com/gitbito/CLI/tree/main"
-ACCESS_KEY_URL="http://shares.simon.casino/s/M4ppG4GmWiw94RW/download/accesskey.txt"
+ACCESS_KEY_URL="accesskey.txt"
 TARGET_LOCATION="/usr/local/bin/bito"
 SCRIPT_PATH="/home/$USER/.ai.sh"
 DIR_PATH="/home/$USER/.bitoai/etc"
