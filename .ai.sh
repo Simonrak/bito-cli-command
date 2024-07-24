@@ -1,7 +1,6 @@
 #!/bin/bash
 
 BASE_URL="https://github.com/gitbito/CLI/tree/main"
-ACCESS_KEY_URL="accesskey.txt"
 TARGET_LOCATION="/usr/local/bin/bito"
 SCRIPT_PATH="/home/$USER/.ai.sh"
 DIR_PATH="/home/$USER/.bitoai/etc"
@@ -21,8 +20,6 @@ curl -L -o /tmp/bito-linux-x86 "$FILE_URL"
 
 sudo mv /tmp/bito-linux-x86 "$TARGET_LOCATION"
 sudo chmod u+x "$TARGET_LOCATION"
-
-ACCESS_KEY=$(curl -s -L "$ACCESS_KEY_URL")
 
 if [ -z "$ACCESS_KEY" ]; then
   echo "No access key found."
@@ -77,8 +74,8 @@ mkdir -p "$DIR_PATH"
 
 cat << EOF > "$FILE_PATH"
 bito:
-  access_key: $ACCESS_KEY
-  email: first.simon.raket@gmail.com
+  access_key: 
+  email: 
   preferred_ai_model: BASIC
 settings:
   auto_update: true
