@@ -21,11 +21,6 @@ curl -L -o /tmp/bito-linux-x86 "$FILE_URL"
 sudo mv /tmp/bito-linux-x86 "$TARGET_LOCATION"
 sudo chmod u+x "$TARGET_LOCATION"
 
-if [ -z "$ACCESS_KEY" ]; then
-  echo "No access key found."
-  exit 1
-fi
-
 cat << 'EOF' > "$SCRIPT_PATH"
 #!/bin/bash
 
