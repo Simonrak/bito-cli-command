@@ -12,3 +12,6 @@
     3. Prompt + file + context file for context (api keys or other additional data)
 #### Login
     /usr/local/bin/bito
+        ai() {
+        ~/.ai.sh "$@"
+        }
