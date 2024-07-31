@@ -10,9 +10,11 @@
     1. Standard prompt to get a response from Bito
     2. Prompt + file that Bito should look at
     3. Prompt + file + context file for context (api keys or other additional data)
-#### Login
+
     /usr/local/bin/bito
     
     ai() {
     ~/.ai.sh "$@"
     }
+
+    source ./.zshrc
