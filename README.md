@@ -1,7 +1,7 @@
 # Bito Cli Command
 ### Simple Cli command for Bito
 #### One-liner install:
-        curl https://raw.githubusercontent.com/Simonrak/bito-cli-command/master/.ai.sh | bash
+    curl https://raw.githubusercontent.com/Simonrak/bito-cli-command/master/.ai.sh | bash
 #### How to use:
     1. ai "user input"
     2. ai "user input" /dir/dir/file
